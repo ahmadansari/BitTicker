@@ -11,6 +11,7 @@ def defaultPods
   pod 'SwiftyBeaver', '1.6.1'
   pod 'Starscream'
   pod 'SwiftLint'
+  pod 'IQKeyboardManager'
 end
 
 target 'BitTicker' do

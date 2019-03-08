@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312504EA2232BA4300D79C33 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 312504E92232BA4300D79C33 /* README.md */; };
 		31F9D17B223104AB005C8731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9D17A223104AB005C8731 /* AppDelegate.swift */; };
 		31F9D17D223104AB005C8731 /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F9D17C223104AB005C8731 /* DefaultViewController.swift */; };
 		31F9D180223104AB005C8731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F9D17E223104AB005C8731 /* Main.storyboard */; };
@@ -69,6 +70,7 @@
 /* Begin PBXFileReference section */
 		02CDCA13B8E1375D29B88AE9 /* Pods-BitTickerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTickerUITests.release.xcconfig"; path = "Target Support Files/Pods-BitTickerUITests/Pods-BitTickerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1876F87FF1358395A9D2019C /* Pods-BitTickerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BitTickerUITests.debug.xcconfig"; path = "Target Support Files/Pods-BitTickerUITests/Pods-BitTickerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		312504E92232BA4300D79C33 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31F9D177223104AB005C8731 /* BitTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F9D17A223104AB005C8731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F9D17C223104AB005C8731 /* DefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		31F9D16E223104AB005C8731 = {
 			isa = PBXGroup;
 			children = (
+				312504E92232BA4300D79C33 /* README.md */,
 				31F9D179223104AB005C8731 /* BitTicker */,
 				31F9D18E223104AC005C8731 /* BitTickerTests */,
 				31F9D199223104AC005C8731 /* BitTickerUITests */,
@@ -600,6 +603,7 @@
 				31F9D20F2232B614005C8731 /* .swiftlint.yml in Resources */,
 				31F9D185223104AC005C8731 /* LaunchScreen.storyboard in Resources */,
 				31F9D182223104AC005C8731 /* Assets.xcassets in Resources */,
+				312504EA2232BA4300D79C33 /* README.md in Resources */,
 				31F9D20722328E01005C8731 /* TickerCollectionCell.xib in Resources */,
 				31F9D1F022312582005C8731 /* TickerCell.xib in Resources */,
 				31F9D180223104AB005C8731 /* Main.storyboard in Resources */,
@@ -651,6 +655,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BitTicker/Pods-BitTicker-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AXReachability/AXReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
@@ -661,6 +666,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AXReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",

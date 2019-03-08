@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import IQKeyboardManager
 
 class SignUpViewController: UIViewController {
  
