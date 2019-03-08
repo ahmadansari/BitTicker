@@ -1,0 +1,36 @@
+PODS:
+  - AXReachability (0.1.0)
+  - Localize-Swift (2.0.0)
+  - RxSwift (4.3.1)
+  - Starscream (3.0.6)
+  - SwiftLint (0.31.0)
+  - SwiftyBeaver (1.6.1)
+
+DEPENDENCIES:
+  - AXReachability (= 0.1.0)
+  - Localize-Swift (= 2.0.0)
+  - RxSwift (= 4.3.1)
+  - Starscream
+  - SwiftLint
+  - SwiftyBeaver (= 1.6.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AXReachability
+    - Localize-Swift
+    - RxSwift
+    - Starscream
+    - SwiftLint
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  AXReachability: 8f21fc1b19788ed2b745a18e72b534170a159e63
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftyBeaver: ccfcdf85a04d429f1633f668650b0ce8020bda3a
+
+PODFILE CHECKSUM: 66c170fc1ffc68dd88e0c26f4d2858b9331f2b0a
+
+COCOAPODS: 1.6.1
